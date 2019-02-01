@@ -1,0 +1,33 @@
+html {
+  font-size: 2.0vw;
+}
+
+@media all and (min-width:1000px) {
+  html {
+    font-size: 20px;
+  }
+}
+
+@media all and (max-width:520px) {
+  html{
+    font-size: 14px;
+  }
+}
+
+html {
+  font-family: sans-serif;
+  line-height: 1.5625;
+  text-rendering: optimizeLegibility;
+}
+
+body > header,
+body > main {
+  margin: 3rem auto;
+  max-width: 30rem;
+  text-align: left;
+}
+
+h1 {
+  line-height: 1.25;
+  margin-top: 2.5rem;
+}
