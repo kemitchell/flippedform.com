@@ -21,7 +21,8 @@ html {
 }
 
 body > header,
-body > main {
+body > main,
+body > footer {
   margin: 3rem auto;
   max-width: 30rem;
   text-align: left;
