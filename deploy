@@ -1,1 +1,1 @@
-rsync -a --delete $(git ls-files | fgrep -v publish) flippedform.com:/var/www/flippedform.com/
+rsync -a --delete $(git ls-files | fgrep -v deploy) flippedform.com:/var/www/flippedform.com/
