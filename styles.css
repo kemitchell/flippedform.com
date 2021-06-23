@@ -28,6 +28,10 @@ body > header > h1 {
   padding-bottom: 0;
 }
 
+main {
+  text-align: justify;
+}
+
 body > footer {
   margin-top: 2rem;
   text-align: right;
