@@ -5,6 +5,7 @@ html {
 body {
   font-size: 120%;
   line-height: 1.5;
+  margin-bottom: 2rem;
 }
 
 header, main, footer {
