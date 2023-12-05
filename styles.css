@@ -13,7 +13,7 @@ header, main, footer {
   max-width: 37rem;
 }
 
-#logo {
+body > header img {
   max-width: 40%;
 }
 
@@ -22,9 +22,9 @@ body > header {
   text-align: center;
 }
 
-body > header > h1 {
-  margin-top: 1rem;
+h1 {
   margin-bottom: 0;
+  margin-top: 1rem;
   padding-bottom: 0;
 }
 
@@ -33,9 +33,9 @@ main {
 }
 
 body > footer {
+  font-size: 90%;
   margin-top: 2rem;
   text-align: center;
-  font-size: 90%;
 }
 
 a {
@@ -43,5 +43,5 @@ a {
 }
 
 a:hover {
-  text-decoration: none;
+  text-decoration: underline;
 }
